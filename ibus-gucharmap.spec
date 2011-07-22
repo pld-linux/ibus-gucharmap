@@ -1,7 +1,7 @@
 Summary:	Unicode input engine (using Gucharmap) for IBus platform
 Name:		ibus-gucharmap
 Version:	1.4.0
-Release:	0.1
+Release:	1
 License:	GPL v2+
 Group:		Libraries
 Source0:	https://github.com/downloads/ueno/ibus-gucharmap/%{name}-%{version}.tar.gz
