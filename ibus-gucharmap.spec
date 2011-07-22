@@ -1,7 +1,7 @@
 Summary:	Unicode input engine (using Gucharmap) for IBus platform
 Name:		ibus-gucharmap
 Version:	1.4.0
-Release:	1
+Release:	2
 License:	GPL v2+
 Group:		Libraries
 Source0:	https://github.com/downloads/ueno/ibus-gucharmap/%{name}-%{version}.tar.gz
@@ -33,11 +33,13 @@ rm -rf $RPM_BUILD_ROOT
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 
+%clean
+rm -rf $RPM_BUILD_ROOT
+
 %files
 %defattr(644,root,root,755)
 %doc COPYING README
 %attr(755,root,root) %{_libexecdir}/ibus-engine-gucharmap
 %attr(755,root,root) %{_libexecdir}/ibus-setup-gucharmap
 %{_datadir}/ibus/component/gucharmap.xml
-%{_datadir}/ibus-gucharmap/unicodenames.sqlite3
-%{_datadir}/ibus-gucharmap/setup/ibus-gucharmap-preferences.ui
+%{_datadir}/ibus-gucharmap
