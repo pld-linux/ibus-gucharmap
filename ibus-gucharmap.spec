@@ -2,7 +2,7 @@ Summary:	Unicode input engine (using Gucharmap) for IBus platform
 Summary(pl.UTF-8):	Unikodowy silnik wejściowy (wykorzystujący Gucharmap) dla platformy IBus
 Name:		ibus-gucharmap
 Version:	1.4.0
-Release:	2
+Release:	3
 License:	GPL v2+
 Group:		Libraries
 #Source0Download: https://github.com/ueno/ibus-charmap/downloads
