@@ -9,7 +9,7 @@ Group:		Libraries
 Source0:	https://github.com/downloads/ueno/ibus-charmap/%{name}-%{version}.tar.gz
 # Source0-md5:	bb7ead40aecc7c2e75b6db81d33d6d19
 URL:		http://github.com/ueno/ibus-charmap/
-BuildRequires:	gettext-devel >= 0.16.1
+BuildRequires:	gettext-tools >= 0.16.1
 BuildRequires:	gucharmap-devel >= 3
 BuildRequires:	ibus-devel >= 1.3.99
 BuildRequires:	pkgconfig
